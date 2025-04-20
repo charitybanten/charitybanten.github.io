@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CharitybantenIndonesia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="logo2.png" style="width: 200px;">
+
+        <nav class="navbar">
+            <a href="#home">Beranda</a>
+            <a href="#about">Tentang</a>
+            <a href="#services">Program</a>
+            <a href="#projects">Berita</a>
+            <a href="#contact">Donasi</a>
+        </nav>
+
+        <a href="" class="gradient-btn">Daftar SPPG</a>
+
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="slider">
+                <div class="slides">
+                    <!--Radio -->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <div class="slide first">
+                        <img src="pg1.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="2.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="22.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="4.jpg" alt="">
+                    </div>
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                </div>
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+            </div>
+
+            <script type="text/javascript">
+                var counter = 1;
+                setInterval(function () {
+                    document.getElementById('radio' + counter).checked = true;
+                    counter++;
+                    if (counter > 4) {
+                        counter = 1;
+                    }
+                }, 5000);
+            </script>
+    </section>
+
+    <section class="about" id="about">
+        <div class="iframe">
+            <iframe src="https://youtube.com//embed/UiMkbHSP4E4?autoplay=1 " frameborder="0"
+                allow="autoplay; encrypted-media"></iframe>
+        </div>
+        <div class="about-content">
+            <h2> TENTANG </h2>
+            <p>Yayasan Charity Banten Adalah Sebuah wadah Sosial & kemanusian untuk menjadi bagian bagi kebuntuan
+                saudara kita yang membutuhkan pertolongan saat sakit dan lainya.</p>
+            <a href="#" class="btn">Informasi Lebih Lanjut</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">PROGRAM</h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <div class="services-info">
+                    <img src="sakit.jpg" alt="">
+                    <h4> Relawan Bagi Orang Sakit</h4>
+                    <a class="btn-s" href="index3/index1.html">Selengkapnya</a>
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-info">
+                    <img src="makan.jpg" alt="">
+                    <h4>Makan Bergizi Gratis</h4>
+                    <a class="btn-s" href="index2/index2.html">Selengkapnya</a>
+                </div>
+            </div>
+            <div class="services-box">
+                <div class="services-info">
+                    <img src="zakat.jpg" alt="">
+                    <h4>Zakat Mumpung Habis Gajian</h4>
+                    <a class="btn-s" href="index4/index1.html">Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+
+        <h2 class="heading">BERITA</h2>
+
+        <div class="projects-box">
+            <div class="projects-card">
+                <img src="berita1.png" alt="">
+                <h1>Kisa Pilu Ibu eem Yang Di Usir Keluarganya Saat Sakit</h1>
+                <h4>12/09/2022</h4>
+                <p>Kisah ibu eem yg mengalami kanker otak dan harus menjalani pengobatan ke rsud tanggerang yg jaraknya
+                    sangat jauh dari rumahnya...</p>
+                <a href="https://kiki-boki.github.io" class="btn" target="_blank">Selengkapnya</a>
+            </div>
+            <div class="projects-card">
+                <img src="berita2.jpg" alt="">
+                <h1>Kisah Pilu Kehidupan Zaky Sang piaitu Yang Tak Pernah melihat kebahagian seperti anak lain nya</h1>
+                <h4>23/05/2022</h4>
+                <p>Saat ini de zaky mengalami kondisi kritis karna tak ada asupan makanan ke tubuhnya selama 1bln..
+                    penyakit yg menggerogoti nya membuat jaki mengalami muntaber serta kehilangan daya nafsu makan...
+                </p>
+                <a href="https://siska-boki.github.io" target="_blank" class="btn">Selengkapnya</a>
+            </div>
+
+            <div class="projects-card">
+                <img src="berita3.jpeg" alt="">
+
+                <h1>Devan hanya bisa menangis dan terbaring lemah. Bahkan untuk bangun saja ia tak mampu</h1>
+                <h4>18/03/2022</h4>
+                <p> Dialah Devan, bayi berusia 9 bulan yang kini terus menangis dan merintih akibat rasa sakit yang luar
+                    biasa di kepalanya....</p>
+                <a href="https://github.com/kiki-boki/ToolsBoxx" target="_blank" class="btn">Selengkapnya</a>
+            </div>
+
+            <div class="projects-card">
+                <img src="berita4.jpg" alt="">
+
+                <h1>
+                    Wajah gembira kami lihat dari raut wajah orang tua de anisa yg selama ini selalu berharap akan
+                    kesembuhan anaknya</h1>
+                <h4>13/10/2021</h4>
+                <p>Mewujudkan impian orang tua de anisa selama penantian panjang 10thn ingin anak nya sembuh kini
+                    terjawab sudah...</p>
+                <a href="https://github.com/kiki-boki/Deface" target="_blank" class="btn">Selengkapnya</a>
+            </div>
+
+            <div class="projects-card">
+                <img src="berita5.jpg" alt="">
+
+                <h1>Hari ini kita bukan hanya membagikan nasi saja tapi kali ini ada bubur sum2 salah satu sedekah dari
+                    ibu Ria asal Cicadas pandeglang semoga makin banyak yang tergerak hatinya untuk membantu kami dalam
+                    Berbagi setiap jumat</h1>
+                <h4>25/02/2022</h4>
+                <p>Alhamdulillah pembagian nasi untuk keluarga pasien yg berjuang menunggu keluarga dalam perawatan di
+                    RSUD banten berjalan dengan lancar....</p>
+                <a href="https://github.com/kiki-boki/Facebook-Bruteforce" target="_blank" class="btn">Selengkapnya</a>
+            </div>
+
+            <div class="projects-card">
+                <img src="berita6.jpeg" alt="">
+
+                <h1>Pelajar Pandeglang yang 'Tumbang' Usai Vaksinasi Sudah Pulih</h1>
+                <h4>22/12/2021</h4>
+                <p>Yopa Aljabar (15), pelajar kelas tiga SMP asal Pandeglang, Banten, yang mengalami demam tinggi hingga
+                    tak bisa makan usai divaksinasi COVID-19 kini sudah dinyatakan sembuh. Yopa sudah diperbolehkan
+                    pulang oleh pihak RS untuk menjalani pemulihan di rumah....</p>
+                <a class="btn">Selengkapnya</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">DONASI</h2>
+        <img src="4.jpg" alt="">
+    </section>
+
+
+    <footer class="footer">
+        <div class="tentang-kami">
+            <h1>Tentang Kami</h1>
+            <h2>Komunitas Charity Banten adalah sebuah wadah Sosial & kemanusian untuk menjadi bagian bagi kebuntuan
+                saudara kita yg membutuhkan dertolongan saat sakit dan lain nya</h2>
+        </div>
+        <div class="kontak">
+            <h1>Kontak</h1>
+            <h2>Jl. Gunung Karang KM. 01 No. 22 RT. 01 RW. 06 Kelurahan Pandelang Kec. Pandeglang Kab.
+                Pandeglang - Banten
+                42211</h2>
+            <h2 class="no-hp">Kontak :</h2>
+            <h2>- Diki (0812-9062-5588)</h2>
+            <h2>- Eka (0851-5948-0488)</h2>
+            <h2>- Jefri (0853-1355-6262)</h2>
+        </div>
+        <div class="sosial-media">
+            <h1>Sosial Media</h1>
+            <div class="iconn">
+                <div class="fb">
+                    <a href="https://facebook.com/CharitybantenIndonesia" target="_blank"><img src="sosial/fb.webp" alt=""></a>
+                </div>
+                <div class="yt">
+                    <a href="https://www.youtube.com/@charitybanten5168" target="_blank"><img src="sosial/yuy.webp" alt=""></a>
+                </div>
+                <div class="ig">
+                    <a href="https://www.instagram.com/charitybanten/" target="_blank"><img src="sosial/ig.png" alt=""></a>
+                </div>
+                <div class="tt">
+                    <a href="https://www.tiktok.com/@chipuik888" target="_blank"><img src="sosial/tt.webp" alt=""></a>
+                </div>
+            </div>
+            <div class="faq">
+                <li><a href="">Syarat & Ketentuan</a></li>
+                <li><a href="">Kebijakan Pengembalian Dana</a></li>
+                <li><a href="">FAQ</a></li>
+            </div>
+        </div>
+    </footer>
+    <div class="copyyy">
+        <p class="copyright">© Charity Banten Indonesia | All Rights Reserved</p>
+    </div>
+</body>
+
+</html>

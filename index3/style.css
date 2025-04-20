@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --bg-color: #ffffff;
+    --second-bg-color: #ffffff;
+    --font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --text-color: rgb(5, 233, 5);
+    --main-color: #2ace1b;
+}
+
+html {
+    font-size: 50%;
+    overflow-x: hidden;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+.header {
+    background: url('https://scontent.fcgk24-2.fna.fbcdn.net/v/t39.30808-6/472250822_964731692371372_5580164813046623324_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeHBTQWgxgH1PcU8KNakz5JffA6HTAB4PWR8DodMAHg9ZHEBv4D2jznYvTZ2fKiJWP5L3pEUG5PqBHU36axrzbK_&_nc_ohc=A8_hyyuhnk4Q7kNvwFBjJLG&_nc_oc=AdnIeGxk2tSvs6QHrs5Y9nlDzGUHJ4gfV-_5UJ5YMOlHWQB4es6ZaP0mqt0Pj1WB0CQ&_nc_zt=23&_nc_ht=scontent.fcgk24-2.fna&_nc_gid=SfbAokmUHNBmtUGgY5ga3w&oh=00_AfELi9OezgKCgLHAUmQhpsagJqNU8y9vw9gANDJrdNCZBg&oe=6809D738');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.tengah {
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.733);
+    height: 100vh;
+    text-align: center;}
+
+.makan-foto img {
+    width: 700px;
+    margin-top: 100px;
+}
+.makan {
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+}
+.makan h1 {
+    font-size: 4rem;
+}
+.makan p{
+    font-size: 1.4rem;
+}
+.btn {
+    padding-bottom: 20px;
+
+    
+}
+.halaman {
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+.btn a {
+    background-color: #d4cbcb91;
+    color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    font-size: 1.5rem;
+    border: 1px solid ;
+    border-radius: 10px;
+    transition: 0.2s;
+    margin-bottom: 20px;
+}
+.btn a:hover {
+    background-color: rgb(23, 74, 17);
+}
+.demo a {
+    position: absolute;
+    bottom: 0;
+    left: 48%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    font : normal 400 20px/1 'Josefin Sans', sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+  }
+  .demo a:hover {
+    opacity: .5;
+  }
+  #section07 a {
+    padding-top: 80px;
+  }
+  #section07 a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb07 2s infinite;
+    animation: sdb07 2s infinite;
+    opacity: 0;
+    box-sizing: border-box;
+  }
+  #section07 a span:nth-of-type(1) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+  }
+  #section07 a span:nth-of-type(2) {
+    top: 16px;
+    -webkit-animation-delay: .15s;
+    animation-delay: .15s;
+  }
+  #section07 a span:nth-of-type(3) {
+    top: 32px;
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s;
+  }
+  @-webkit-keyframes sdb07 {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes sdb07 {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+.tentang{
+    margin-top: 20px;
+    color: black;
+    padding: 0 40px;
+    margin-bottom: 50px;
+}
+
+.tentang h1 {
+    color: black;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.tentang h4 {
+    font-size: 1.6rem;
+}
+    
+.tentang p {
+    font-size: 1.5rem;
+}
+
+.footer {
+    background-color: rgb(3, 85, 38);
+    display: flex;
+}
+.footer .tentang-kami {
+    width: 30%;
+    margin: 30px;
+}
+.footer .kontak {
+    margin: 30px;
+    width: 30%;
+}
+.footer h1 {
+    margin-bottom: 10px;
+    font-size: 3rem;
+    color: white;
+    font-family: var(--font-family);
+}
+
+.footer h2 {
+    color: white;
+    font-weight: 400;
+}
+.footer .sosial-media {
+    width: 40%;
+    margin: 30px;
+}
+.footer .sosial-media .iconn {
+    display: flex;
+}
+.footer .sosial-media img{
+    margin-right: 5px;
+    width: 50px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.footer .sosial-media img:hover {
+    width: 55px;
+}.footer .faq{
+    margin-top: 10px;
+}
+
+.footer .faq a {
+    color: white;
+    font-size: 1.5rem;
+}
+.footer .faq a:hover {
+    color: #ffc400;
+}
+.copyyy {
+    background-color:  rgb(0, 53, 23);
+}
+.copyright {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+
+@media(max-width:1285px) {
+    .header {
+        padding: 0;
+    }
+    section {
+        padding: 10rem 0;
+        height: auto;
+    }
+
+    .navigation-auto{
+        display: none;
+        position: absolute;
+        justify-content: center;
+        left: 0;
+
+    }
+    .navigation-manual {
+        display: none;
+        position: absolute;
+        left: 0;
+    }
+    .navbar {
+    display: none;
+    }
+    .navbar .active {
+        display: none;
+    }
+    .gradient-btn {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .home {
+        flex-direction: column-reverse;
+        gap: 5rem;
+        min-height: 10%;
+    }
+
+    .home-content {
+        align-items: center;
+        text-align: center;
+        min-height: 1%;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin-top: -80px;
+    }
+
+    .about iframe {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        align-items: center;
+        margin-top: -50px;
+        display: flex;
+    }
+    .about-content h2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 5rem;
+        margin: 0 auto;
+        color: rgb(44, 71, 44);
+        padding: 0 10px;
+    }
+
+    .about-content span {
+        color: rgb(8, 216, 8);
+    }
+    .berita-relawan {
+        margin-top: 20px;
+        padding: 0 30px;
+    }
+    .about-content p {
+        width: 100%;
+        color: black;
+        font-size: 1.8rem;
+        padding: 0 10px;
+        text-align: center;
+        display: flex;
+    }
+
+    .services-box {
+        margin: 20px;
+    }
+    .footer {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer .tentang-kami {
+        padding-top: 30px;
+        margin: 0 auto;
+        width: 300px;
+
+    }
+    .footer .kontak {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .footer h1 {
+        margin-bottom: 10px;
+        font-size: 3rem;
+        color: white;
+        font-family: var(--font-family);
+    }
+    
+    .footer h2 {
+        color: white;
+        font-weight: 400;
+    }
+    .footer .sosial-media {
+        margin: 0 auto;
+        width: 200px;
+    }
+    .footer .sosial-media .iconn {
+        display: flex;
+        justify-content: center;
+    }
+    .footer .sosial-media img{
+        margin-right: 5px;
+        width: 30px;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+    .footer .sosial-media img:hover {
+        width: 55px;
+    }
+    .footer .faq{
+        margin-top: 10px;
+    }
+    
+    .footer .faq a {
+        color: white;
+        font-size: 1.5rem;
+    }
+    .contact {
+        min-height: 20vh;
+    }
+    .copyright {
+        font-size: 1.2rem;
+    }
+    .tengah {
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.542);
+        height: 100vh;
+        text-align: center;}
+    
+    .makan-foto img {
+        width: 300px;
+        margin-top: 160px;
+    }
+    .makan {
+        color: white;
+        width: 100%;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+    .makan h1 {
+        font-size: 3rem;
+    }
+    .makan p{
+        font-size: 1.4rem;
+    }
+    .btn {
+        margin-top: 20px;
+    }
+    .btn a {
+        background-color: #00000091;
+        color: white;
+        padding: 10px 30px;
+        font-size: 1.5rem;
+        border: 1px solid ;
+        border-radius: 20px;
+        transition: 0.2s;
+    }
+    .btn a:hover {
+        background-color: rgb(23, 74, 17);
+    }
+    .demo a {
+        left: 43%;
+        bottom: 40px;
+    }
+}
